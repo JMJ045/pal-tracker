@@ -14,9 +14,8 @@ public class WelcomeController {
     public String sVal ;
 
 
-    @GetMapping("/env")
+    @GetMapping("/")
     public String sayHello() {
-        sVal = "Hello world";
         return sVal;
     }
 }
